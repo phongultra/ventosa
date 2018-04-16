@@ -18,7 +18,7 @@ header.masthead {
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1023px) {/*TB NHO*/
     .navbar-shrink .pop-fixed, .pop-fixed{
         position: fixed;
         right: 0;
@@ -30,9 +30,20 @@ header.masthead {
         border-bottom-left-radius: 12px;
         font-size: 15px;
     }
+    .navbar-shrink .pop-fixed-right{
+        position: fixed;
+        left: 0;
+        bottom: 20px;
+        padding: 9px;
+        background: #22252a;
+        border: none;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        font-size: 15px;
+    }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) {/*TB LON*/
     .navbar-shrink .pop-fixed{
         position: fixed;
         right: 0;
@@ -42,6 +53,17 @@ header.masthead {
         border: none;
         border-top-left-radius: 12px;
         border-bottom-left-radius: 12px;
+        font-size: 20px;
+    }
+    .pop-fixed-right{
+        position: fixed;
+        left: 0;
+        bottom: 100px;
+        padding: 20px;
+        background: #22252a;
+        border: none;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
         font-size: 20px;
     }
 }
