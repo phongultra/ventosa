@@ -80,3 +80,27 @@
 .pop-fixed:hover{
     text-decoration: none;
 }
+
+section {
+    padding: 20px 0;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#doitac .img-fluid{
+    max-height: 70px;
+    max-width: 100%;
+}
+
+header.masthead {
+    background-image: url(../img/sample/phongngu.jpeg);
+}
+
+@media (min-width: 992px){
+    #mainNav {
+        background-color: #2125299c;
+    }
+}
