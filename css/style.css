@@ -1,9 +1,9 @@
 .carousel-item img{
     height: 100vh;
 }
-header.masthead {
-    /* background-image: url(../img/sample/4.png); */
-}
+/*header.masthead {
+    background-image: url(../img/sample/4.png);
+}*/
 
 .navbar.navbar-shrink .navbar-brand img.img-responsive{
     height: 50px;
