@@ -163,9 +163,9 @@ header.masthead {
     height: 350px;
 }
 
-@media (max-width: 668px){
-    #modalThongBao h2{
-        font-size: 11px;
+@media (max-width: 736px){
+    #modalThongBao h3{
+        font-size: 12.5px;
     }
     #modalThongBao a{
         font-size: 13px;
