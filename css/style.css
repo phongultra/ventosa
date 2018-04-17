@@ -1,16 +1,47 @@
-.carousel-item img{
-    height: 100vh;
+@media (min-width: 601px) {
+    .carousel-item img{
+        height: 100vh;
+    }
+}
+@media (max-width: 600px) {
+    .carousel-item img{
+        height: 50vh;
+    }
 }
 /*header.masthead {
     background-image: url(../img/sample/4.png);
 }*/
+body {
+    color: #1d2942;
+}
 
 .navbar.navbar-shrink .navbar-brand img.img-responsive{
-    height: 50px;
+    height: 45px;
+    animation: zoomout 500ms ease-in-out forwards;
+
 }
+
 .navbar .navbar-brand img.img-responsive{
-    height: 100px;
+    height: 70px;
+    animation: zoomin 500ms ease-in-out forwards;
 }
+
+@keyframes zoomin {
+    from {
+      transform: scale(0.8);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  @keyframes zoomout {
+    from {
+        transform: scale(1.2);
+      }
+      to {
+        transform: scale(1);
+      }
+  }
 
 @media (max-width: 767px) {
     .navbar .navbar-brand img.img-responsive{
@@ -19,7 +50,7 @@
 }
 
 @media (max-width: 1023px) {/*TB NHO*/
-    .navbar-shrink .pop-fixed, .pop-fixed{
+    /* .navbar-shrink .pop-fixed, .pop-fixed{
         position: fixed;
         right: 0;
         bottom: 20px;
@@ -29,8 +60,9 @@
         border-top-left-radius: 12px;
         border-bottom-left-radius: 12px;
         font-size: 15px;
-    }
-    .navbar-shrink .pop-fixed-right{
+    } */
+    
+    .navbar-shrink .pop-fixed-left{
         position: fixed;
         left: 0;
         bottom: 20px;
@@ -55,7 +87,7 @@
         border-bottom-left-radius: 12px;
         font-size: 20px;
     }
-    .pop-fixed-right{
+    .pop-fixed-left{
         position: fixed;
         left: 0;
         bottom: 100px;
@@ -103,4 +135,9 @@ header.masthead {
     #mainNav {
         background-color: #2125299c;
     }
+}
+
+.hotline-pop-title{
+    font-size: 12px;
+    color: white;
 }
